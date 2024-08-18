@@ -41,8 +41,8 @@ public class StudentLinkedList {
 
 				case 4:
                     System.out.print("What is the Student id ? ");
-					int bookId = input.nextInt();
-					if (!hr.find(bookId)) 
+					int bId = input.nextInt();
+					if (!hr.find(bId)) 
 					{
 					System.out.println("Student id does not exist\n");
 					}
